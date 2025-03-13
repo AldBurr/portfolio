@@ -1,0 +1,109 @@
+/* CSS for the NYC website */
+
+/* *** Base ********************* */
+
+h1, h2, h3, h4, h5, h6, th {
+	margin-top: 0;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.3em;
+	text-align: left;
+}
+h2 {
+	background-color: #9F9438;
+	box-shadow: 5px 5px 10px 0 #cccccc;
+	border-radius: 5px;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	padding: 10px;
+}
+p, ol, ul, td {
+  color: #525252;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: left;
+}
+img {
+  border: 1px solid black;
+  width: 100%;
+}
+
+/* ------- Links -------- */
+a {
+	text-decoration: underline;
+	color: black;
+}
+a:hover {
+	color: white;
+	background: #BBB576;
+}
+
+/* ------- Table -------- */
+table { 
+	width: 100%; 
+	margin-bottom: 25px;
+}
+th { 
+	height: 2.8em; 
+	background-color: white;
+}
+tr { background-color: #a3a3a3; }
+tr:nth-child(odd) { background-color: #d3d3d3; }
+td { padding: 8px; }
+
+
+/* *** Layout ******************* */
+.page-container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1000px;
+}
+
+.container {
+	display: flex;
+	gap: 25px;
+	border-bottom: 3px solid orange;
+	padding-top: 25px;
+}
+.container > * {
+	flex: 1 1	100%;
+}
+
+/* ----- Page Header ----- */
+.page-header h1 { 
+	margin: 15px 0 0; 
+	font-size: 1.7em;
+}
+
+/* ----- Page Footer ----- */
+.page-footer { 
+	line-height: 1.4em;
+	margin: 20px 0; 
+	font-size: 0.9em;
+}
+
+/* *** H1 link style *** */
+.page-header a { 
+	text-decoration: none; 
+	padding: 5px;
+}
+.page-header a:hover { background-color: #BBB576; }
+.page-header a:active { background-color: LightGray; }
+
+/* *** Main Menu style *** */
+.main-menu ul {
+  display: flex;
+  column-gap: 20px;
+  
+  list-style: none;
+  padding-left: 0;
+}
+
+.main-menu a { padding: 5px; }
+
+a.is-current { 
+	color: white;
+	background-color: #BBB576;
+}

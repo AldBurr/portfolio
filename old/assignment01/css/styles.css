@@ -1,0 +1,20 @@
+.gridlayout{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    gap: 15px;
+ }
+ .item1{
+       grid-column: 1 / 4;
+ }
+ .item2, .item3{
+    grid-row: 2 / 4;
+ }
+ body{ font-family: 'Times New Roman', Times, serif;
+    background-color: #FF7590;
+ } 
+ h1{
+    border: 2px solid #0049b7;
+ }
+ .slider{
+    grid-column: 3;
+ }

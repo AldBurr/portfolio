@@ -1,0 +1,25 @@
+body { font-family: 'Times New Roman', Times, serif; 
+    background-color: #FF69B4;
+}
+li {background-color: #FF0000;}
+h1 { margin: 10px;}
+h2 { border: 3px solid #FF0000;
+border-radius: 10px;
+box-shadow: #81154b;
+}
+p { background-image: linear-gradient(#ffa500, #ffc0cb);}
+strong { color: #FF0000;}
+em { color: #540303;}
+ul li{
+    color: #81154b;
+    border: 2px;
+}
+li :hover{
+    background-color: #540303;
+}
+strong:first-child{
+    color: #540303;
+}
+img{
+    float: right;
+}

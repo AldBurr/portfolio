@@ -1,0 +1,56 @@
+/*
+*Adds a different paground color that still contrasts the text color
+*/
+body{
+    background-color: #92A8D1;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*
+*puts an outset border around the heading of the webpage 
+*made sure the color was different but still a complementary color
+*/
+h1{
+    border-style: outset;
+    border-color: #D1BB92;
+}
+/*
+*Adds a border to separate each section under an h2 element
+*adjusted color of the border on the bottom to be complementary but still split up each section
+*/
+h2{
+    border-bottom: solid #D192C8;
+}
+/*
+* Removes the border from the h2 elements from the boroughs because the style and way it was layed out did not fit
+*/
+.boroughcontainer h2{
+    border: none;
+}
+/*
+* sets a standard gap between each element inside the grid as well as displaying the grid
+*/
+.gridcontainer{
+    display: grid;   
+    column-gap: 10px;
+    row-gap: 10px;
+}
+/*
+*Puts all boroughs on one line and allows them to extend down as to not squish any information
+*/
+.boroughcontainer{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr;
+    border: none;
+}
+/*
+* Puts a solid border around each borough to separate from each other
+*/
+.item1, .item2, .item3, .item4, .item5{
+    border-style: solid;
+}
+
+/*
+*Overall attempted style was the F style where there are multiple lines going down
+*The borough section does not quite follow this style and is more of a card Layout
+*/
+
