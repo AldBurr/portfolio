@@ -1,0 +1,6 @@
+Alden Burt
+
+Nothing changed when an empty repository was pushed to github
+
+When the file was pushed through question.txt got removed from the original and now appears behind the new directory I assume only one file appears because it has only been moved and not copied therefore the file only exists in the new directory
+

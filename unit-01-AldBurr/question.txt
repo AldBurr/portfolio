@@ -1,0 +1,3 @@
+Alden Burt
+
+Gitbash responded with a statement saying that everything was up to date when pushing a empty directory
